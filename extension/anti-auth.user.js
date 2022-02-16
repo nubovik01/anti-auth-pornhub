@@ -1,13 +1,14 @@
 // ==UserScript==
 // @name         Анти-авторизация на PornHub
-// @namespace    https://github.com/nubovik01
-// @homepage     https://github.com/nubovik01
+// @namespace    https://github.com/Nubovik01/anti-auth-pornhub/
+// @homepage     https://github.com/Nubovik01/anti-auth-pornhub/
 // @version      1.0.1
 // @encoding     utf-8
 // @description  Этот скрипт убирает штучку "Авторизируйтесь через VK для подтверждения возраста"
 // @icon         https://di.phncdn.com/www-static/favicon.ico
 // @author       Nubovik
 // @match        *://*.pornhub.com/*
+// @exclude      *://rt.pornhub.com/*
 // @compatible   chrome
 // @compatible   firefox
 // @compatible   opera
