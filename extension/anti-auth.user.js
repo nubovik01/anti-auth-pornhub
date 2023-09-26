@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Анти-авторизация на PornHub
+// @name         Анти-авторизация на PornHub через VK
 // @namespace    https://github.com/Nubovik01/anti-auth-pornhub/
 // @homepage     https://github.com/Nubovik01/anti-auth-pornhub/
-// @version      1.0.3
+// @version      1.0.4
 // @description  Этот скрипт убирает штучку "Авторизируйтесь через VK для подтверждения возраста"
 // @icon         https://di.phncdn.com/www-static/favicon.ico
 // @author       Nubovik (https://qwkrtezzz.ru/)
@@ -16,5 +16,18 @@
 // @run-at       document-body
 // ==/UserScript==
 
-document.getElementById("age-verification-container").remove();
-document.getElementById("age-verification-wrapper").remove();
+const ageVerificationContainerElement = document.getElementById("age-verification-container");
+
+const ageVerificationWrapperElement = document.getElementById("age-verification-wrapper");
+
+try {
+  ageVerificationContainerElement.remove();
+} catch (error) {
+  console.log("[anti-auth-pornhub] i can't remove age-verification-container :(");
+};
+
+try {
+  ageVerificationWrapperElement.remove();
+} catch (error) {
+  console.log("[anti-auth-pornhub] i can't remove age-verification-wrapper :(");
+};
