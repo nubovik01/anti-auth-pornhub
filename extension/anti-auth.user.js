@@ -5,7 +5,7 @@
 // @version      1.0.4
 // @description  Этот скрипт убирает штучку "Авторизируйтесь через VK для подтверждения возраста"
 // @icon         https://di.phncdn.com/www-static/favicon.ico
-// @author       Nubovik (https://qwkrtezzz.ru/)
+// @author       Nikita A. <https://t.me/nktdev> (https://nubovik01.github.io)
 // @match        *://*.pornhub.com/*
 // @downloadURL  https://github.com/Nubovik01/anti-auth-pornhub/raw/main/extension/anti-auth.user.js
 // @updateURL    https://github.com/Nubovik01/anti-auth-pornhub/raw/main/extension/anti-auth.user.js
