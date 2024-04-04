@@ -17,17 +17,6 @@
 // ==/UserScript==
 
 const ageVerificationContainerElement = document.getElementById("age-verification-container");
-
+ageVerificationContainerElement.remove();
 const ageVerificationWrapperElement = document.getElementById("age-verification-wrapper");
-
-try {
-  ageVerificationContainerElement.remove();
-} catch (error) {
-  console.log("[anti-auth-pornhub] i can't remove age-verification-container :(");
-};
-
-try {
-  ageVerificationWrapperElement.remove();
-} catch (error) {
-  console.log("[anti-auth-pornhub] i can't remove age-verification-wrapper :(");
-};
+ageVerificationWrapperElement.remove();
